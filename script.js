@@ -4,7 +4,7 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-   const priceCells = document.querySelectorAll(".prices");
+   const priceCells = document.querySelectorAll(".price");
 
   // convert NodeList into numbers and sum them
   let total = 0;

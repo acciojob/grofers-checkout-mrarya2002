@@ -17,7 +17,8 @@ const getSum = () => {
   const td = document.createElement("td");
 
   td.colSpan = 2; // span across both columns
-  td.innerText = `Total Price = Rs ${total}`;
+  td.innerText = `${total}`;
+	td.setAttribute("id","ans");
 
   tr.appendChild(td);
 
